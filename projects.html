@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Dhia Eddine Ayachi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="animated-background">
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+    <div class="gradient-sphere sphere-3"></div>
+    <div class="code-lines"></div>
+  </div>
+
+  <div class="noise-overlay"></div>
+
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-section">
+        <div class="logo-container">
+          <div class="logo-animation">
+            <span class="logo-particle"></span>
+            <span class="logo-particle"></span>
+            <span class="logo-particle"></span>
+          </div>
+          <a href="/" class="logo">
+            <span class="logo-bracket">{</span>
+            dhia-eddine-ayachi
+            <span class="logo-bracket">}</span>
+          </a>
+        </div>
+        <div class="status-badge">
+          <div class="status-pulse"></div>
+          <span class="status-text">available for hire</span>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <div class="nav-group">
+          <a href="index.html" class="nav-link">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">⌂</span>
+            </div>
+            <span class="nav-text">_hello</span>
+            <div class="nav-glow"></div>
+          </a>
+        </div>
+
+        <div class="nav-group">
+          <a href="about.html" class="nav-link">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">⚡</span>
+            </div>
+            <span class="nav-text">_about-me</span>
+            <div class="nav-glow"></div>
+          </a>
+        </div>
+
+        <div class="nav-group">
+          <a href="projects.html" class="nav-link active">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">☰</span>
+            </div>
+            <span class="nav-text">_projects</span>
+            <div class="nav-glow"></div>
+          </a>
+        </div>
+
+        <div class="nav-group">
+          <a href="contact.html" class="nav-link">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">✉</span>
+            </div>
+            <span class="nav-text">_contact-me</span>
+            <div class="nav-glow"></div>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="content-wrapper">
+      <section class="projects-section">
+        <div class="projects-filter" style="background-color: rgba(1, 22, 39, 0.8);">
+          <button class="filter-btn active" data-filter="all">all</button>
+          <button class="filter-btn" data-filter="ui-ux">ui/ux</button>
+          <button class="filter-btn" data-filter="flutter">flutter</button>
+          <button class="filter-btn" data-filter="web">web</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- UI/UX Project -->
+          <div class="project-card ui-ux">
+            <div class="project-preview">
+              <video class="project-video" controls>
+                <source src="assets/projects/ui-design-1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="project-overlay">
+                <h3>Modern App Design</h3>
+                <div class="project-tags">
+                  <span class="tag">UI/UX</span>
+                  <span class="tag">Figma</span>
+                </div>
+                <a href="assets/projects/ui-design-1.mp4" download class="download-btn">download-project</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-description">Clean and modern mobile app interface design with smooth animations</p>
+              <div class="project-actions">
+                <a href="#" class="project-link">view-project</a>
+                <a href="assets/projects/ui-design-1.mp4" download class="project-link download">download</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flutter Project -->
+          <div class="project-card flutter">
+            <div class="project-preview">
+              <video class="project-video" controls>
+                <source src="assets/projects/flutter-app.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="project-overlay">
+                <h3>E-commerce App</h3>
+                <div class="project-tags">
+                  <span class="tag">Flutter</span>
+                  <span class="tag">Firebase</span>
+                </div>
+                <a href="assets/projects/flutter-app.mp4" download class="download-btn">download-project</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-description">Full-featured e-commerce application with clean UI and smooth animations</p>
+              <div class="project-actions">
+                <a href="#" class="project-link">view-project</a>
+                <a href="assets/projects/flutter-app.mp4" download class="project-link download">download</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Project -->
+          <div class="project-card web">
+            <div class="project-preview">
+              <video class="project-video" controls>
+                <source src="assets/projects/web-dashboard.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="project-overlay">
+                <h3>Admin Dashboard</h3>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                </div>
+                <a href="assets/projects/web-dashboard.mp4" download class="download-btn">download-project</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-description">Modern admin dashboard with real-time analytics and data visualization</p>
+              <div class="project-actions">
+                <a href="#" class="project-link">view-project</a>
+                <a href="assets/projects/web-dashboard.mp4" download class="project-link download">download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="social-links">
+      <span class="social-label">// find me in:</span>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/mr__dhia/" target="_blank" class="social-link">
+          <div class="social-icon-wrapper">
+            <span class="social-icon">📸</span>
+          </div>
+          <span class="social-platform">Instagram</span>
+          <span class="social-username">@mr__dhia</span>
+        </a>
+        <a href="https://github.com/dhiaeddine-ayh" target="_blank" class="social-link">
+          <div class="social-icon-wrapper">
+            <span class="social-icon">🐱</span>
+          </div>
+          <span class="social-platform">GitHub</span>
+          <span class="social-username">@dhiaeddine-ayh</span>
+        </a>
+        <a href="https://linkedin.com/in/dhia-eddine-ayachi-842381288" target="_blank" class="social-link">
+          <div class="social-icon-wrapper">
+            <span class="social-icon">💼</span>
+          </div>
+          <span class="social-platform">LinkedIn</span>
+          <span class="social-username">@dhia-eddine-ayachi</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Create animated code lines
+    const codeLines = document.querySelector('.code-lines');
+    for (let i = 0; i < 50; i++) {
+      const line = document.createElement('div');
+      line.className = 'code-line';
+      line.style.setProperty('--delay', `${Math.random() * 5}s`);
+      line.style.setProperty('--duration', `${Math.random() * 2 + 3}s`);
+      line.style.setProperty('--position', `${Math.random() * 100}%`);
+      codeLines.appendChild(line);
+    }
+
+    // Project filtering
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterBtns.forEach(b => b.classList.remove('active'));
+        // Add active class to clicked button
+        btn.classList.add('active');
+        
+        const filter = btn.dataset.filter;
+        
+        projectCards.forEach(card => {
+          if (filter === 'all' || card.classList.contains(filter)) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Auto-play videos on hover
+    const projectVideos = document.querySelectorAll('.project-video');
+    projectVideos.forEach(video => {
+      video.parentElement.addEventListener('mouseenter', () => {
+        video.play();
+      });
+      video.parentElement.addEventListener('mouseleave', () => {
+        video.pause();
+        video.currentTime = 0;
+      });
+    });
+  </script>
+</body>
+</html> 

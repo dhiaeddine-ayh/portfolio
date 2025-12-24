@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shooter - Dhia's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: #011627;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(67, 217, 173, 0.2);
+        }
+
+        .game-screen {
+            border: 2px solid #1E2D3D;
+            border-radius: 4px;
+            margin: 20px 0;
+            background: #011627;
+        }
+
+        .start-button {
+            padding: 10px 20px;
+            background: #1E2D3D;
+            color: #43D9AD;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Fira Code', monospace;
+            transition: all 0.3s ease;
+        }
+
+        .start-button:hover {
+            background: #43D9AD;
+            color: #011627;
+            box-shadow: 0 0 10px rgba(67, 217, 173, 0.5);
+        }
+
+        .game-instructions {
+            color: #607B96;
+            font-family: 'Fira Code', monospace;
+            text-align: center;
+            margin: 20px 0;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h2 style="color: #43D9AD; font-family: 'Fira Code', monospace;">Space Shooter</h2>
+        <canvas class="game-screen"></canvas>
+        <button class="start-button">start-game</button>
+        <div class="game-instructions">
+            <p>Use mouse to move</p>
+            <p>Click to shoot</p>
+            <p>Collect power-ups to upgrade weapons and shield</p>
+        </div>
+    </div>
+    <script src="space-shooter.js"></script>
+</body>
+</html> 

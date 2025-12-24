@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhia Eddine Ayachi | Developer & UI/UX Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    ::selection {
+      background: rgba(0, 229, 255, 0.2);
+      color: #00fff5;
+    }
+  </style>
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="animated-background">
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+    <div class="gradient-sphere sphere-3"></div>
+    <div class="code-lines"></div>
+  </div>
+
+  <div class="noise-overlay"></div>
+
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-section">
+        <div class="logo-container">
+          <div class="logo-animation">
+            <span class="logo-particle"></span>
+            <span class="logo-particle"></span>
+            <span class="logo-particle"></span>
+          </div>
+          <a href="/" class="logo">
+            <span class="logo-bracket">{</span>
+            dhia-eddine-ayachi
+            <span class="logo-bracket">}</span>
+          </a>
+        </div>
+        <div class="status-badge">
+          <div class="status-pulse"></div>
+          <span class="status-text">available for hire</span>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <div class="nav-group">
+          <a href="index.html" class="nav-link active">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">⌂</span>
+            </div>
+            <span class="nav-text">_hello</span>
+            <div class="nav-glow"></div>
+          </a>
+          <div class="nav-dropdown">
+            <div class="dropdown-header">
+              <span class="dropdown-title">Navigation</span>
+              <span class="dropdown-close">×</span>
+            </div>
+            <div class="dropdown-content">
+              <a href="#intro" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Introduction</span>
+              </a>
+              <a href="#skills" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Skills</span>
+              </a>
+              <a href="#contact" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Contact</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-group">
+          <a href="about.html" class="nav-link">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">⚡</span>
+            </div>
+            <span class="nav-text">_about-me</span>
+            <div class="nav-glow"></div>
+          </a>
+          <div class="nav-dropdown">
+            <div class="dropdown-header">
+              <span class="dropdown-title">About Me</span>
+              <span class="dropdown-close">×</span>
+            </div>
+            <div class="dropdown-content">
+              <a href="#bio" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Biography</span>
+              </a>
+              <a href="#experience" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Experience</span>
+              </a>
+              <a href="#education" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Education</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-group">
+          <a href="projects.html" class="nav-link">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">☰</span>
+            </div>
+            <span class="nav-text">_projects</span>
+            <div class="nav-glow"></div>
+          </a>
+          <div class="nav-dropdown">
+            <div class="dropdown-header">
+              <span class="dropdown-title">My Work</span>
+              <span class="dropdown-close">×</span>
+            </div>
+            <div class="dropdown-content">
+              <a href="#flutter" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Flutter Apps</span>
+              </a>
+              <a href="#python" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Python Projects</span>
+              </a>
+              <a href="#web" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Web Development</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-group">
+          <a href="contact.html" class="nav-link">
+            <div class="nav-icon-wrapper">
+              <span class="nav-icon">✉</span>
+            </div>
+            <span class="nav-text">_contact-me</span>
+            <div class="nav-glow"></div>
+          </a>
+          <div class="nav-dropdown">
+            <div class="dropdown-header">
+              <span class="dropdown-title">Get in Touch</span>
+              <span class="dropdown-close">×</span>
+            </div>
+            <div class="dropdown-content">
+              <a href="#email" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Email Me</span>
+              </a>
+              <a href="#social" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Social Media</span>
+              </a>
+              <a href="#form" class="dropdown-item">
+                <span class="item-icon">◆</span>
+                <span class="item-text">Contact Form</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="content-wrapper">
+      <section class="intro-section">
+        <div class="profile-container">
+          <div class="profile-image-wrapper">
+            <img src="assets/me.jpg" alt="Dhia Eddine Ayachi" class="profile-image">
+            <div class="profile-frame"></div>
+            <div class="tech-stack">
+              <div class="tech-item">Flutter</div>
+              <div class="tech-item">Python</div>
+              <div class="tech-item">React</div>
+              <div class="tech-item">UI/UX</div>
+            </div>
+          </div>
+          <div class="intro">
+            <div class="title-container">
+              <h1>Hi all. I am<br>Dhia Eddine Ayachi</h1>
+              <div class="title-decoration"></div>
+            </div>
+            <p class="roles">
+              > Flutter Developer<br>
+              > Python Developer<br>
+              > Frontend Developer<br>
+              > UI/UX Designer
+            </p>
+            <div class="code-block">
+              <div class="code-comment">// find my profile on GitHub:</div>
+              <div class="code-snippet">
+                <span class="line-number">01</span>
+                <span class="keyword">const</span> githubLink = <span class="string">"https://github.com/dhiaeddine-ayh"</span>;
+              </div>
+              <div class="code-snippet">
+                <span class="line-number">02</span>
+                <span class="keyword">while</span> (<span class="variable">coding</span>) {
+              </div>
+              <div class="code-snippet indented">
+                <span class="line-number">03</span>
+                <span class="function">drinkCoffee</span>();
+              </div>
+              <div class="code-snippet">
+                <span class="line-number">04</span>
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator">
+    <div class="scroll-dot active" data-section="home"></div>
+    <div class="scroll-dot" data-section="projects"></div>
+    <div class="scroll-dot" data-section="experience"></div>
+    <div class="scroll-dot" data-section="education"></div>
+  </div>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="section-content">
+      <h2 class="section-title">_projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1" class="project-image">
+          <h3 class="project-title">Flutter E-commerce App</h3>
+          <p class="project-description">A modern e-commerce application built with Flutter, featuring clean UI and smooth animations.</p>
+          <div class="project-tags">
+            <span class="project-tag">Flutter</span>
+            <span class="project-tag">Dart</span>
+            <span class="project-tag">Firebase</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2" class="project-image">
+          <h3 class="project-title">Python Data Analysis</h3>
+          <p class="project-description">Data analysis and visualization tool built with Python, featuring interactive dashboards.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Pandas</span>
+            <span class="project-tag">Matplotlib</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project3.jpg" alt="Project 3" class="project-image">
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-description">Personal portfolio website built with modern web technologies and beautiful animations.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="section-content">
+      <h2 class="section-title">_experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2023 - Present</div>
+            <h3 class="timeline-title">Flutter Developer</h3>
+            <p class="timeline-description">Developed and maintained multiple Flutter applications, implementing modern UI/UX designs and integrating various APIs.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2022 - 2023</div>
+            <h3 class="timeline-title">Python Developer</h3>
+            <p class="timeline-description">Created data analysis tools and automation scripts, improving workflow efficiency and data processing capabilities.</p>
+          </div>
+          <div class="timeline-dot"></div>
+      </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2021 - 2022</div>
+            <h3 class="timeline-title">Frontend Developer</h3>
+            <p class="timeline-description">Built responsive websites and web applications using modern frontend technologies and best practices.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="section-content">
+      <h2 class="section-title">_education</h2>
+      <div class="education-grid">
+        <div class="education-card">
+          <div class="education-year">2020 - 2023</div>
+          <h3 class="education-degree">Bachelor's in Computer Science</h3>
+          <div class="education-school">University Name</div>
+          <p class="education-description">Studied computer science with a focus on software development, algorithms, and data structures.</p>
+        </div>
+
+        <div class="education-card">
+          <div class="education-year">2023</div>
+          <h3 class="education-degree">Flutter Development</h3>
+          <div class="education-school">Online Certification</div>
+          <p class="education-description">Completed comprehensive Flutter development course, covering mobile app development and UI design.</p>
+        </div>
+
+        <div class="education-card">
+          <div class="education-year">2022</div>
+          <h3 class="education-degree">UI/UX Design</h3>
+          <div class="education-school">Design Institute</div>
+          <p class="education-description">Learned modern UI/UX design principles, user research, and prototyping techniques.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Create animated code lines
+    const codeLines = document.querySelector('.code-lines');
+    for (let i = 0; i < 50; i++) {
+      const line = document.createElement('div');
+      line.className = 'code-line';
+      line.style.setProperty('--delay', `${Math.random() * 5}s`);
+      line.style.setProperty('--duration', `${Math.random() * 2 + 3}s`);
+      line.style.setProperty('--position', `${Math.random() * 100}%`);
+      codeLines.appendChild(line);
+    }
+
+    // Initialize tech stack animations
+    const techItems = document.querySelectorAll('.tech-item');
+    techItems.forEach((item, index) => {
+      item.style.setProperty('--index', index);
+    });
+
+    // Add parallax effect to profile image
+    const profileImage = document.querySelector('.profile-image-wrapper');
+    document.addEventListener('mousemove', (e) => {
+      const { clientX, clientY } = e;
+      const { innerWidth, innerHeight } = window;
+      const x = (clientX - innerWidth / 2) / 50;
+      const y = (clientY - innerHeight / 2) / 50;
+      profileImage.style.transform = `rotateY(${x}deg) rotateX(${-y}deg)`;
+    });
+
+    // Add typing effect to roles
+    const roles = document.querySelector('.roles');
+    const rolesText = roles.innerHTML;
+    roles.innerHTML = '';
+    let charIndex = 0;
+
+    function typeRoles() {
+      if (charIndex < rolesText.length) {
+        roles.innerHTML += rolesText.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeRoles, 50);
+      }
+    }
+
+    // Start typing effect when element is in view
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          typeRoles();
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    observer.observe(roles);
+
+    // Enhanced theme switcher
+    const themeSwitcher = document.querySelector('.theme-switcher');
+    const switcherThumb = document.querySelector('.switcher-thumb');
+    const switcherIcons = document.querySelectorAll('.switcher-icon');
+    
+    themeSwitcher.addEventListener('click', () => {
+      switcherThumb.classList.toggle('switched');
+      switcherIcons.forEach(icon => icon.classList.toggle('active'));
+      document.body.classList.toggle('light-theme');
+    });
+
+    // Enhanced dropdown functionality
+    document.querySelectorAll('.nav-group').forEach(group => {
+      const link = group.querySelector('.nav-link');
+      const dropdown = group.querySelector('.nav-dropdown');
+      const close = group.querySelector('.dropdown-close');
+      
+      if (dropdown) {
+        link.addEventListener('click', (e) => {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            dropdown.classList.toggle('active');
+          }
+        });
+        
+        group.addEventListener('mouseenter', () => {
+          if (window.innerWidth > 768) {
+            dropdown.classList.add('active');
+          }
+        });
+        
+        group.addEventListener('mouseleave', () => {
+          if (window.innerWidth > 768) {
+            dropdown.classList.remove('active');
+          }
+        });
+
+        if (close) {
+          close.addEventListener('click', () => {
+            dropdown.classList.remove('active');
+          });
+        }
+      }
+    });
+
+    // Scroll Indicator
+    const sections = document.querySelectorAll('.section');
+    const scrollDots = document.querySelectorAll('.scroll-dot');
+
+    const scrollObserverOptions = {
+      threshold: 0.5
+    };
+
+    const scrollObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const sectionId = entry.target.id;
+          scrollDots.forEach(dot => {
+            dot.classList.remove('active');
+            if (dot.dataset.section === sectionId) {
+              dot.classList.add('active');
+            }
+          });
+        }
+      });
+    }, scrollObserverOptions);
+
+    sections.forEach(section => scrollObserver.observe(section));
+
+    // Scroll to section when clicking dots
+    scrollDots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        const sectionId = dot.dataset.section;
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Parallax effect for project cards
+    const projectCards = document.querySelectorAll('.project-card');
+    
+    document.addEventListener('mousemove', (e) => {
+      const { clientX, clientY } = e;
+      const { innerWidth, innerHeight } = window;
+      
+      projectCards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const cardX = rect.left + rect.width / 2;
+        const cardY = rect.top + rect.height / 2;
+        
+        const angleX = (cardY - clientY) / 30;
+        const angleY = (cardX - clientX) / -30;
+        
+        card.style.transform = `perspective(1000px) rotateX(${angleX}deg) rotateY(${angleY}deg) translateY(-5px)`;
+      });
+    });
+
+    // Reset card transform on mouse leave
+    projectCards.forEach(card => {
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'none';
+      });
+    });
+  </script>
+
+  <footer class="footer">
+    <div class="social-links">
+      <span class="social-label">// find me in:</span>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/mr__dhia/" target="_blank" class="social-link">
+          <div class="social-icon-wrapper">
+            <span class="social-icon">📸</span>
+          </div>
+          <span class="social-platform">Instagram</span>
+          <span class="social-username">@mr__dhia</span>
+        </a>
+        <a href="https://github.com/dhiaeddine-ayh" target="_blank" class="social-link">
+          <div class="social-icon-wrapper">
+            <span class="social-icon">🐱</span>
+          </div>
+          <span class="social-platform">GitHub</span>
+          <span class="social-username">@dhiaeddine-ayh</span>
+        </a>
+        <a href="https://linkedin.com/in/dhia-eddine-ayachi-842381288" target="_blank" class="social-link">
+          <div class="social-icon-wrapper">
+            <span class="social-icon">💼</span>
+          </div>
+          <span class="social-platform">LinkedIn</span>
+          <span class="social-username">@dhiaeddine</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
